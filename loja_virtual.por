@@ -23,5 +23,37 @@ programa {
     real valor_total_bruto = 0.0
     real valor_desconto = 0.0
     
+     //1. laço principal do sistema
+    enquanto (opcao_menu_principal != 0){
+
+      //limpa a tela a cada iteracao para manter o menu organizado
+      limpa()
+
+      escreva("=== BEM-VINDO A NOSSA LOJA VIRTUAL ===")
+
+      escreva("-----------------------------------------")
+
+      escreva("MENU PRINCIPAL")
+
+      escreva("1. ver produtos e adicionar ao carrinho (CREATE)")
+
+
+      escreva("2. ver meus itens no carrinho (READ)")
+
+
+      escreva("3. alterar quantidade no carrinho (READ)")
+
+
+      escreva("4. remover item do carrinho (DELETE)")
+
+
+      escreva("0. finalizar compra e ir ao pagamento")
+
+
+      escreva("Escolha uma opçao: ")
+      leia(opcao_menu_principal)
+      
+      Escolha (opcao_menu_principal)
+      {
   }
 }
